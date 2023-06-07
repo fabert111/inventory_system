@@ -45,3 +45,14 @@ def delete_supplier(id:int):
     result = SupplierService(db).delete_supplier(id)
     if not result:
         return JSONResponse(content={'message':'supplier delete succesfull','status_code':200},status_code=200)
+    
+
+
+
+
+
+
+
+
+    #el commit
+    
