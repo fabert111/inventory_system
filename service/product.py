@@ -48,3 +48,9 @@ class ProducService():
         self.db.query(ProductModel).filter(ProductModel.id == id).delete()
         self.db.commit()
         return
+    
+
+
+
+    #el commit
+    
