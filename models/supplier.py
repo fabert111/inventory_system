@@ -10,3 +10,9 @@ class Supplier(Base):
     address = Column(String)
     phone = Column(String)
     email = Column(String)
+
+
+
+
+
+    #el commit
